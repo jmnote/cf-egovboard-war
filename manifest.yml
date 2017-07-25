@@ -1,6 +1,6 @@
 ---
 applications:
-- name: egov-board
+- name: cf-egovboard-war
   memory: 512M
   instances: 1
   path: target/egov-board.war
