@@ -1,14 +1,14 @@
-#eGovFrame 3.1 »ùÇÃ: °£´ÜÇÑ °Ô½ÃÆÇ ¾îÇÃ¸®ÄÉÀÌ¼Ç
-==> eGovFrame web project ==> eGovFrame common component Ãß°¡
+#eGovFrame 3.1 ìƒ˜í”Œ: ê°„ë‹¨í•œ ê²Œì‹œíŒ ì–´í”Œë¦¬ì¼€ì´ì…˜
+==> eGovFrame web project ==> eGovFrame common component ì¶”ê°€
 
 
-* mysql ½ºÅ©¸³Æ® -> ÇÁ·ÎÁ§Æ®¿¡ Æ÷ÇÔµÈ ddl, dml¿¡ ÀÚµ¿À¸·Î »ı¼ºµÈ db ½ºÅ©¸³Æ®´Â Áßº¹ÀÌ ¸¹À½, 
-µû¶ó¼­ ¼öÁ¤µÈ create¿Í insert ½ºÅ©¸³Æ®¸¦ »ç¿ë
+* mysql ìŠ¤í¬ë¦½íŠ¸ -> í”„ë¡œì íŠ¸ì— í¬í•¨ëœ ddl, dmlì— ìë™ìœ¼ë¡œ ìƒì„±ëœ db ìŠ¤í¬ë¦½íŠ¸ëŠ” ì¤‘ë³µì´ ë§ìŒ, 
+ë”°ë¼ì„œ ìˆ˜ì •ëœ createì™€ insert ìŠ¤í¬ë¦½íŠ¸ë¥¼ ì‚¬ìš©
  
-/sql_scripts/create_mysql.sql    	 #ÇÊ¿äÇÑ Å×ÀÌºí»ı¼ºÇÏ´Â ½ºÅ©¸³Æ®
-            /insert_mysql.sql    	 #ÇÊ¿äÇÑ µ¥ÀÌÅÍ insert ÇÏ´Â ½ºÅ©¸³Æ®
+/sql_scripts/create_mysql.sql    	 #í•„ìš”í•œ í…Œì´ë¸”ìƒì„±í•˜ëŠ” ìŠ¤í¬ë¦½íŠ¸
+            /insert_mysql.sql    	 #í•„ìš”í•œ ë°ì´í„° insert í•˜ëŠ” ìŠ¤í¬ë¦½íŠ¸
 
-/src				 	 #¼Ò½ºÄÚµå(maven ÇÁ·ÎÁ§Æ®-egovframe 3.1.1 ÀÌÅ¬¸³½º¿¡¼­ importÇÏ¿© ºôµå°¡´É)
+/src				 	 #ì†ŒìŠ¤ì½”ë“œ(maven í”„ë¡œì íŠ¸-egovframe 3.1.1 ì´í´ë¦½ìŠ¤ì—ì„œ importí•˜ì—¬ ë¹Œë“œê°€ëŠ¥)
 
-/for_push/hello-egov-board-1.0.0.war	 #ÇÁ·ÎÁ§Æ® ºôµåµÈ ÆÄÀÏ - ½ÇÁ¦ Å×½ºÆ®½Ã¿¡´Â ÇØ´çÆÄÀÏ¸¸ ÀÖÀ¸¸é µÊ
-         /manifest.yml			 #cf push¸¦ À§ÇÑ ¸Å´ÏÆĞ½ºÆ®ÆÄÀÏ
+/target/egov-board.war	 #í”„ë¡œì íŠ¸ ë¹Œë“œëœ íŒŒì¼ - ì‹¤ì œ í…ŒìŠ¤íŠ¸ì‹œì—ëŠ” í•´ë‹¹íŒŒì¼ë§Œ ìˆìœ¼ë©´ ë¨
+/manifest.yml			        #cf pushë¥¼ ìœ„í•œ ë§¤ë‹ˆíŒ¨ìŠ¤íŠ¸íŒŒì¼
