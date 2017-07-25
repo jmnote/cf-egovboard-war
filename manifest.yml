@@ -1,0 +1,11 @@
+---
+applications:
+- name: egov-board
+  memory: 512M
+  instances: 1
+  path: target/egov-board.war
+  random-route: true
+  buildpack: egov_buildpack_v35
+  env:
+    JBP_CONFIG_COMPONENTS: '[containers: Tomcat]'
+
