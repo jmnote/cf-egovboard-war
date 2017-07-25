@@ -1,4 +1,4 @@
-# hello-egov-boardT
+# egov-board
 
 eGovFrame 3.1 샘플: 간단한 게시판 어플리케이션
 ```
